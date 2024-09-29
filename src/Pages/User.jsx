@@ -1,13 +1,16 @@
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const User = () => {
   return (
     <div className="flex-4 p-5 items-start">
       <div className=" flex justify-between items-center">
         <h1 className="">ویرایش کاربر</h1>
+        <Link to={'/newUser'}>
         <button className="w-20 p-1 bg-teal-500 rounded text-white ">
           ایجاد
         </button>
+        </Link>
       </div>
       <div className=" flex mt-5">
         <div className="flex-1 w-full p-5 shadow flex-col">
@@ -76,7 +79,7 @@ const User = () => {
                         <input className="hidden" type="file" name="" id="img" />
                         <img className="w-24 h-24" src="https://cdn-icons-png.flaticon.com/512/219/219969.png" alt="" />
                     </div>
-                    <button className="p-1 rounded-md bg-blue-800 text-white">به روز رسانی</button>
+                    <button className="p-1 rounded-md bg-violet-600 text-white">به روز رسانی</button>
                 </div>
             </form>
             </div>
