@@ -22,7 +22,7 @@ function App() {
           <Route path= "/newUser" element={<NewUser/>} />
           <Route path= "/products" element={<ProductList/>} />
           <Route path= "/product/:Id" element={<Product/>} />
-          <Route path= "/newProducts" element={<NewProduct/>} />
+          <Route path= "/newProduct" element={<NewProduct/>} />
           <Route path="*" element={''} />
         </Routes>
         </div>

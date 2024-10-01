@@ -11,7 +11,7 @@ const ProductList = () => {
           renderCell: (params)=>{
             return(
               <div className='flex justify-center items-center'>
-                <img className='w-10 h-10 ml-2' src="https://cdn-icons-png.flaticon.com/512/219/219969.png" alt="userImage" />
+                <img className='w-10 h-10 ml-2' src="https://img.freepik.com/premium-photo/glycolic-acid-product-packaging-minimalist-design_1298745-4413.jpg" alt="userImage" />
                 {params.row.productName}
               </div>
             )
